@@ -1,0 +1,46 @@
+/* RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 */
+
+ body {
+    margin: 0;
+    text-align: center;
+ }
+
+ img {
+    width: 100px;
+    height: 75px;
+ }
+
+ .hero-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #F1FAEE;
+    background-image: url("images/hero_cluj.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 345px;
+    background-position: center;
+ 
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ /* .hero-section {
+   display: flex;
+   flex-direction: column;
+   justify-content:center ;
+   background: url("images/hero_cluj.jpeg");
+   background-size: cover;
+   background-repeat:no-repeat;
+   /* height: 350px; 
+   align-items: center;
+   } */
+
+ .hero-section h1 {
+   background-color: #1D3557;
+ }
