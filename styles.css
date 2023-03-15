@@ -7,6 +7,9 @@ DARK BLUE: #1D3557 */
  body {
     margin: 0;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
  }
 
  img {
@@ -14,10 +17,20 @@ DARK BLUE: #1D3557 */
     height: 75px;
  }
 
+ h1,h2,h3,h4 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+ }
+
+ p {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.72px;
+  line-height: 22px;
+ }
  .hero-section{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
    color: #F1FAEE;
     background-image: url("images/hero_cluj.jpeg");
     background-size: cover;
@@ -25,22 +38,116 @@ DARK BLUE: #1D3557 */
     width: 720px;
     height: 345px;
     background-position: center;
- 
     margin-left: auto;
     margin-right: auto;
  }
 
- /* .hero-section {
-   display: flex;
+  .headings {
+    display: flex;
    flex-direction: column;
-   justify-content:center ;
-   background: url("images/hero_cluj.jpeg");
-   background-size: cover;
-   background-repeat:no-repeat;
-   /* height: 350px; 
+   justify-content: center;
    align-items: center;
-   } */
+  }
 
- .hero-section h1 {
+ .headings h1 {
    background-color: #1D3557;
+   width: 270px;
+   height: 40px;
+   border-radius: 10px;
+   padding: 9px 12px 9px 12px;
+   text-align: center;
+   margin-top: 120px;
+   font-size: 32px;
+  line-height: 37px;
+ }
+
+ .headings h2 {
+  background-color: #457B9D;
+  width: 420px;
+  height: 65px;
+  text-align: center;
+  padding: 12px 12px 12px 12px;
+  border-radius: 10px;
+  font-size: 19px;
+  line-height: 22px;
+ }
+
+ #activity-section {
+  background-color: #F1FAEE;
+  width: 720px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+
+ }
+
+ #activity-section h3 {
+  padding-top: 20px;
+  margin-top: 0px;
+ }
+
+ .activities {
+  display: flex;
+  flex-direction: row; 
+  justify-content:space-around;
+  align-items: center;
+  
+ }
+
+ .activity img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+  
+ }
+
+ .activity p {
+   margin-top: 5px;
+   padding-bottom: 50px;
+ }
+
+ .activity {
+   padding-left: 10px;   
+   padding-right: 10px;
+ }
+
+ .guide-section {
+   display: flex;
+   justify-content: center;
+   background-color:white;
+  width: 720px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+ }
+
+ .guide {
+   display: flex;
+   width: 400px;
+   height: 250;
+   display: flex;   
+   justify-content:space-around;
+   text-align: center;
+   background-color: #457B9D;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 30px;
+ }
+
+ .guide img {
+   width: 180px;
+   height: 200px;
+   padding: 70px 15px;
+ }
+
+ .guide h3 {
+   padding-top: 50px;
+ }
+ .guide p {
+   padding: 20px 10px;
+   font-weight: 5px;
+   font-size: 15px;
  }
